@@ -8,9 +8,8 @@ import android.os.Build;
 import android.support.v7.app.AppCompatDelegate;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.hst.meetingdemo.R;
+import com.hifly.paasdemo.R;
 import com.hst.meetingdemo.base.BaseActivity;
 import com.hst.meetingdemo.business.FspEvents;
 import com.hst.meetingdemo.business.FspManager;
@@ -22,13 +21,10 @@ import org.greenrobot.eventbus.ThreadMode;
 
 import butterknife.BindView;
 import butterknife.OnClick;
-import permissions.dispatcher.NeedsPermission;
-import permissions.dispatcher.RuntimePermissions;
 
 /**
  * 登录
  */
-@RuntimePermissions
 public class LoginActivity extends BaseActivity {
 
     static {
@@ -63,14 +59,12 @@ public class LoginActivity extends BaseActivity {
     public void onLoginBtnClick() {
         //使用com.github.hotchemi:permissionsdispatcher 处理运行时权限问题。
         //权限都申请到后， 开始doJoinGroup 加入组
-        LoginActivityPermissionsDispatcher.doLoginWithPermissionCheck(this);
+        doLogin();
     }
 
     //LoginActivity统一先分配好运行时权限，  不同开发者根据自身情况处理动态权限问题
     //需要的两个权限：  Manifest.permission.RECORD_AUDIO 在 FspEngine.init 时需要
     //Manifest.permission.CAMERA 需要在视频相关操作时分配
-    @NeedsPermission({Manifest.permission.RECORD_AUDIO, Manifest.permission.CAMERA, Manifest.permission.ACCESS_WIFI_STATE,
-            Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.READ_EXTERNAL_STORAGE})
     void doLogin() {
         String userid = m_loginEtUserId.getText().toString();
         if (userid.isEmpty()) {

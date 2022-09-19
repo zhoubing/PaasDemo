@@ -4,22 +4,12 @@ import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.view.KeyEvent;
-import android.view.View;
-import android.view.inputmethod.EditorInfo;
-import android.widget.EditText;
-import android.widget.TextView;
 
-import com.hst.fsp.FspUserInfo;
-import com.hst.meetingdemo.R;
+import com.hifly.paasdemo.R;
 import com.hst.meetingdemo.base.BaseDialog;
-import com.hst.meetingdemo.business.FspEvents;
 import com.hst.meetingdemo.business.FspManager;
-import com.hst.meetingdemo.ui.main.adapter.EventMsgAdapter;
 import com.hst.meetingdemo.ui.main.adapter.SenderSelectAdapter;
-import com.hst.meetingdemo.ui.online.OnlineAdapter;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;

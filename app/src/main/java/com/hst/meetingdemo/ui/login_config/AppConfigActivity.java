@@ -1,25 +1,21 @@
 package com.hst.meetingdemo.ui.login_config;
 
+import android.content.DialogInterface;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.view.KeyEvent;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.content.DialogInterface;
 
-import com.hst.meetingdemo.R;
+import com.hifly.paasdemo.R;
 import com.hst.meetingdemo.base.BaseActivity;
 import com.hst.meetingdemo.business.FspConstants;
-import com.hst.meetingdemo.business.FspManager;
 import com.hst.meetingdemo.business.FspPreferenceManager;
-import com.orhanobut.logger.Logger;
 import com.hst.meetingdemo.utils.VoiceVariantUtils;
 
 import butterknife.BindView;
 import butterknife.OnClick;
-import butterknife.OnLongClick;
 
 /**
  * 登录设置

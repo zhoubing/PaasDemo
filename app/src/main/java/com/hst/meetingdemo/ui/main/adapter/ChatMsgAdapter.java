@@ -8,10 +8,9 @@ import android.text.style.ForegroundColorSpan;
 import android.view.Gravity;
 import android.widget.TextView;
 
-import com.hst.meetingdemo.R;
+import com.hifly.paasdemo.R;
 import com.hst.meetingdemo.base.BaseRecycleViewHolder;
 import com.hst.meetingdemo.base.BaseRecyclerAdapter;
-import com.hst.meetingdemo.business.FspConstants;
 import com.hst.meetingdemo.business.FspEvents;
 
 import java.util.List;

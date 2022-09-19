@@ -11,13 +11,12 @@ import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.hifly.paasdemo.R;
 import com.hst.fsp.FspEngine;
 import com.hst.fsp.VideoStatsInfo;
-import com.hst.meetingdemo.R;
 import com.hst.meetingdemo.business.FspManager;
 import com.hst.meetingdemo.ui.main.dialog.CameraListDialog;
 import com.hst.meetingdemo.utils.FspUtils;
-import com.orhanobut.logger.Logger;
 
 import java.util.ArrayList;
 

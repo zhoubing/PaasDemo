@@ -2,24 +2,16 @@ package com.hst.meetingdemo.ui.invite_income;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatDelegate;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.TextView;
 
-import com.hst.meetingdemo.R;
+import com.hifly.paasdemo.R;
 import com.hst.meetingdemo.base.BaseActivity;
 import com.hst.meetingdemo.bean.MainFinishEntity;
-import com.hst.meetingdemo.bean.OnlineFinishEntity;
 import com.hst.meetingdemo.bean.SettingFinishEntity;
 import com.hst.meetingdemo.business.FspEvents;
 import com.hst.meetingdemo.business.FspManager;
-import com.hst.meetingdemo.ui.main.MainActivity;
-import com.hst.meetingdemo.ui.online.OnlineActivity;
-import com.hst.meetingdemo.ui.setting.SettingActivity;
 
 import org.greenrobot.eventbus.EventBus;
-import org.greenrobot.eventbus.Subscribe;
-import org.greenrobot.eventbus.ThreadMode;
 
 import butterknife.BindView;
 import butterknife.OnClick;

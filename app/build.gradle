@@ -7,7 +7,7 @@ android {
 
     defaultConfig {
         applicationId "com.hifly.paasdemo"
-        minSdk 26
+        minSdk 25
         targetSdk 32
         versionCode 1
         versionName "1.0"
@@ -34,7 +34,8 @@ android {
 dependencies {
     implementation files('libs\\fsp_sdk-3.1.0.aar')
     implementation 'com.android.support:appcompat-v7:26.1.0'
-    implementation 'com.android.support:design:26.1.0'
+    implementation 'com.android.support:recyclerview-v7:26.1.0'
+
     implementation 'com.android.support.constraint:constraint-layout:2.0.4'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
@@ -44,10 +45,4 @@ dependencies {
     implementation 'com.jakewharton:butterknife:8.4.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
     implementation 'org.greenrobot:eventbus:3.1.1'
-
-    implementation("com.github.hotchemi:permissionsdispatcher:3.1.0") {
-        // if you don't use android.app.Fragment you can exclude support for them
-        exclude module: "support-v13"
-    }
-    annotationProcessor "com.github.hotchemi:permissionsdispatcher-processor:3.1.0"
 }

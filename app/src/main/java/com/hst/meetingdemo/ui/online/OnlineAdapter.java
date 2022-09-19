@@ -5,9 +5,8 @@ import android.support.v4.util.ArraySet;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.hst.fsp.FspEngine;
+import com.hifly.paasdemo.R;
 import com.hst.fsp.FspUserInfo;
-import com.hst.meetingdemo.R;
 import com.hst.meetingdemo.base.BaseRecycleViewHolder;
 import com.hst.meetingdemo.base.BaseRecyclerAdapter;
 import com.hst.meetingdemo.business.FspManager;

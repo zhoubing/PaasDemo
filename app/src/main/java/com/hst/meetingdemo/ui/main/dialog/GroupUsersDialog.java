@@ -5,8 +5,8 @@ import android.support.annotation.NonNull;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
+import com.hifly.paasdemo.R;
 import com.hst.fsp.FspUserInfo;
-import com.hst.meetingdemo.R;
 import com.hst.meetingdemo.base.BaseDialog;
 import com.hst.meetingdemo.ui.main.adapter.GroupUsersAdapter;
 

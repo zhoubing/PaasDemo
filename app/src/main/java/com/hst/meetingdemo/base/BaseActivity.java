@@ -8,8 +8,7 @@ import android.support.annotation.StringRes;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 
-import com.hst.meetingdemo.R;
-import com.hst.meetingdemo.bean.OnlineFinishEntity;
+import com.hifly.paasdemo.R;
 import com.hst.meetingdemo.business.FspEvents;
 import com.hst.meetingdemo.business.FspManager;
 import com.hst.meetingdemo.ui.invite_income.InviteIncomeActivity;
@@ -17,7 +16,6 @@ import com.hst.meetingdemo.ui.main.MainActivity;
 import com.hst.meetingdemo.ui.online.OnlineActivity;
 import com.hst.meetingdemo.ui.setting.SettingActivity;
 import com.hst.meetingdemo.utils.LoadingDialog;
-import com.orhanobut.logger.Logger;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;

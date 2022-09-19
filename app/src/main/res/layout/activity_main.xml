@@ -110,16 +110,6 @@
         android:layout_above="@id/toolbar_layout_main"
         android:weightSum="5">
 
-        <Space
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_weight="3" />
-
-        <Space
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_weight="1" />
-
         <LinearLayout
             android:id="@+id/toolbar_layout_more"
             android:layout_width="0dp"

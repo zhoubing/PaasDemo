@@ -9,9 +9,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.hst.meetingdemo.R;
+import com.hifly.paasdemo.R;
 import com.hst.meetingdemo.base.BaseDialog;
-import com.hst.meetingdemo.business.FspConstants;
 import com.hst.meetingdemo.business.FspEvents;
 import com.hst.meetingdemo.business.FspManager;
 import com.hst.meetingdemo.ui.main.adapter.ChatMsgAdapter;

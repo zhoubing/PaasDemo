@@ -6,8 +6,8 @@ import android.widget.ImageView;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
+import com.hifly.paasdemo.R;
 import com.hst.fsp.VideoProfile;
-import com.hst.meetingdemo.R;
 import com.hst.meetingdemo.base.BaseActivity;
 import com.hst.meetingdemo.bean.MainFinishEntity;
 import com.hst.meetingdemo.bean.OnlineFinishEntity;
@@ -15,7 +15,6 @@ import com.hst.meetingdemo.bean.SettingFinishEntity;
 import com.hst.meetingdemo.business.FspManager;
 import com.hst.meetingdemo.business.FspPreferenceManager;
 import com.hst.meetingdemo.ui.login.LoginActivity;
-import com.hst.meetingdemo.ui.main.MainActivity;
 import com.hst.meetingdemo.utils.ActivityUtils;
 import com.hst.meetingdemo.utils.ProfileUtils;
 

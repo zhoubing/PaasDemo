@@ -14,7 +14,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.hst.meetingdemo.R;
+import com.hifly.paasdemo.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

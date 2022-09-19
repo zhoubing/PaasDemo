@@ -15,10 +15,10 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.hifly.paasdemo.R;
 import com.hst.fsp.FspBoardView;
 import com.hst.fsp.IFspWhiteBoard;
 import com.hst.fsp.WhiteBoardInfo;
-import com.hst.meetingdemo.R;
 import com.hst.meetingdemo.base.BaseActivity;
 import com.hst.meetingdemo.business.FspEvents;
 import com.hst.meetingdemo.business.FspManager;
@@ -33,7 +33,6 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.BindViews;
 import butterknife.OnClick;
-import permissions.dispatcher.OnNeverAskAgain;
 
 /**
  * 设置

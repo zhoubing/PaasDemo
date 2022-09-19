@@ -7,8 +7,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.hifly.paasdemo.R;
 import com.hst.fsp.FspUserInfo;
-import com.hst.meetingdemo.R;
 import com.hst.meetingdemo.base.BaseActivity;
 import com.hst.meetingdemo.bean.OnlineFinishEntity;
 import com.hst.meetingdemo.business.FspEvents;

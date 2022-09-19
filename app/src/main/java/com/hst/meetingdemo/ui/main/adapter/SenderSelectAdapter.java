@@ -1,16 +1,13 @@
 package com.hst.meetingdemo.ui.main.adapter;
 
 import android.content.Context;
-import android.graphics.drawable.Drawable;
 import android.support.v4.content.ContextCompat;
 import android.view.View;
 import android.widget.TextView;
 
-import com.hst.meetingdemo.R;
+import com.hifly.paasdemo.R;
 import com.hst.meetingdemo.base.BaseRecycleViewHolder;
 import com.hst.meetingdemo.base.BaseRecyclerAdapter;
-import com.hst.meetingdemo.bean.EventMsgEntity;
-import com.hst.meetingdemo.business.FspConstants;
 
 import java.util.List;
 
